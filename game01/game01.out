@@ -1,0 +1,130 @@
+GAME ENGINE FOR TEXT ADVENTURES
+Version 1.0 (January 2011)
+Designed by Guillermo Jiménez and Federico Peinado
+
+THE TWO TOWELS
+Cristina and Jose Luis
+Three Rings for the Elven-kings...
+
+FOREST OF THONTUNIA
+You are a 'profesional dungeoneer' of the Kingdom of Thontunia, a brave guy who explores dangerous places looking for lost treasures. Now you are wandering in the forest, ready for another exciting day full of adventures. It seems there is a cave at the north...
+
+This location has no items.
+
+>
+There is no item with that name in this location.
+
+>
+ENTRANCE OF THE CAVE
+Aha! The inside of the cave is really big. You can smell the aroma of adventure... no, no, wait... what you are smelling is the stench of trolls! You should be careful exploring the cave, trying not to find a troll in your way... or you'll be part of his diet :-( There are two passages in the cave, an small one at the west and a big one at the northeast. Close to the northeast passage there is a skull on the floor (ughs!).
+
+This location contains the following items:skull.
+
+>
+It has been taken.
+
+>
+The inventory contains the following items:skull (25).
+
+>
+This skull is really scary.
+
+>
+SMALL PASSAGE OF THE CAVE
+You have decided to delve into the small passage. May not have been the right choice. You seem like small sites. Do you like to look closely at things? Would you like to feel the excitement about? Undoubtedly, you have chosen the best option. You can go to the northwest and begin to feel the heat like you are in the Caribbean. On the right you have a swimsuit that might come in handy if you do not carry one in the bag ...
+
+This location contains the following items:swimsuit.
+
+>
+FIRE ROOM
+Wajaja! We have fooled! Are you starting to feel the heat? Well hurry up because every second that pass the temperature increases. The only outlet you have is to go north and pray that no other room worse. We will not be so bad and give you the opportunity to use it as a sauna, you could really lose some weight ... On the roof you have two thermostats, you must choose the correct to regulate temperature or else ...
+
+This location contains the following items:thermostat1, thermostat2.
+
+>
+REFUGE OF THE CAVE
+You are a brave adventurer. Nothing stands in your way towards the goal. We are shoked, but this has only just begun. You still have many adventures ahead. On the table you have a flashlight in case you want to accompany you on your way. For now, you rest, you expected a hard day at daybreak. To the northeast yo can see another room ...
+
+This location contains the following items:lamp.
+
+>
+It has been taken.
+
+>
+It has been dropped.
+
+>
+POLYCHROME ROOM
+See? Now understand the type of people who live in this cave? I hope you have passed the shock of seeing trolls and you have rested. In short you must agree with a group of tourists, as the room you just entered is very famous. You can see the type of materials used in antiquity and which devoted part of his time. Do not be too thief, do not take anything! Well you can take thumbnails, but not may because when you go to the north you will be frisked and as you take over ... In the middle of the room you can see there is a cabinet with pots, ashtrys ...
+
+This location contains the following items:pot, ashtry.
+
+>
+It has been taken.
+
+>
+THE BASIN ROOM
+But ... if it is empty! There's nothing nowhere! It seems that this room only serves to choose the path I want to do. Difficult choice. West, North, East. Pinto Pinto trill ...
+
+This location has no items.
+
+>
+There is no item with that name in this location.
+
+>
+MONSTERS OF THE CAVE
+Agh! But what is this? They are stuffed animals. These people are ... uooh! They come for me! Yes! The network that is on the wall can be used to tie I am going crazy! This is all a figment of my imagination, count up to 3 and all have happened ... 1, 2 ... Aah I have touched! Why door should I go? North, south, west, northwest ...
+
+This location contains the following items:network.
+
+>
+It has been taken.
+
+>
+The inventory contains the following items:skull (25), pot (1), network (-27).
+
+>
+DRESSES OF THE TIME
+You just go back in time. The clothes you wear is broken and is outdated for the time. It is necessary that you change your clothes. Variety where you elected. Take the mirror and try on dresses, pants ... When you're ready, go north or south. You'll feel like Meteor Shower and through the door ...
+
+This location contains the following items:dress, pant, mirror.
+
+>
+It has been taken.
+
+>
+It has been taken.
+
+>
+The inventory contains the following items:skull (25), pot (1), network (-27), pant (1), mirror (2).
+
+>
+It has been dropped.
+
+>
+WATER PASSAGE OF THE CAVE
+Here musty, seems to have been a storm. Be careful, the floor ... aaah! Slip eh? I would take the raincoat that have been forgotten because you could take you a cold. You should not spend much time here because the water can cover the entire passage as the Titanic. Flees to the south, southwest or northeast ...
+
+This location contains the following items:raincoat.
+
+>
+FIGHT ROOM OF THE CAVE
+We were waiting ... You think you are ready to have gotten rid of our trolls and traps that you have put on the road ... but I still have ahead the hardest battle, the fight against our greatest and terrifying troll!! You gave me I turned around and went home, but since you got here ... you should go north ...
+
+This location contains the following items:clock.
+
+>
+The inventory contains the following items:skull (25), pot (1), network (-27), pant (1).
+
+>
+KING TROLL OF THONTUNIA
+Congratulations! You are the first that has managed to get here. I know you have had to fight hard and spend hardship in this cave so quiet apparently. That smell ... Agh! You are!! The King will grant you the pleasure to use their facilities in the kingdom, so it looks like a cave is the most beautiful of all the woods and come more intrepid adventurers. Altough hopefully not all have the same fate as you, because muy trolls are hungry and you are very tasty jeje. Continue north and you will see your second reward ...
+
+This location contains the following items:gifts.
+
+>
+There is no way in that direction.
+
+>
+Player score:0
+GAME OVER

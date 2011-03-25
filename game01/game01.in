@@ -1,0 +1,28 @@
+take paper
+go n
+take skull
+examine
+examine skull
+go w
+g nw
+go n
+take lamp
+drop lamp
+go ne
+take pot
+go n
+take nata
+go n
+take network
+examine
+go nw
+take pant
+take mirror
+examine
+drop mirror
+go n
+go ne
+examine
+go n
+go n
+quit

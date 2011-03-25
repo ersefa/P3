@@ -1,0 +1,99 @@
+GAME ENGINE FOR TEXT ADVENTURES
+Version 1.0 (January 2011)
+Designed by Guillermo Jiménez and Federico Peinado
+
+THE TWO TOWELS
+Cristina and Jose Luis
+Three Rings for the Elven-kings...
+
+FOREST OF THONTUNIA
+You are a 'profesional dungeoneer' of the Kingdom of Thontunia, a brave guy who explores dangerous places looking for lost treasures. Now you are wandering in the forest, ready for another exciting day full of adventures. It seems there is a cave at the north...
+
+This location has no items.
+
+>
+I do not understand
+
+>
+I do not understand
+
+>
+MEDITATION CAVE
+Looks like you are wondering if you dive into the adventures that await you in the forest. That makes me think that maybe you do not have the facts straight. If not you wander, you can not talk about the adventures with other browsers. Can you repent! Take a coin. Back to the north and behave like a real adventurer. If you really afraid, go northeast ...
+
+This location contains the following items:coin.
+
+>
+The inventory has no items
+
+>
+It has been taken.
+
+>
+This coin is the fate
+
+>
+BACK DOOR
+Oh, no, I can not believe it! What are you doing here? An intrepid adventurer can not be afraid of anything. I have disappointed, I thought you were more brave. Come back when you lost fears ...
+
+This location has no items.
+
+>
+There is no way in that direction.
+
+>
+There is no item with that name in this location.
+
+>
+The inventory contains the following items:coin.
+
+>
+It has been dropped.
+
+>
+There is no way in that direction.
+
+>
+There is no item with that name in this location.
+
+>
+There is no way in that direction.
+
+>
+The inventory has no items
+
+>
+There is no way in that direction.
+
+>
+These are the available player commands:
+help|info|about
+(go|g|move) <direction>
+look|l|search
+(examine|x|inventory) [<item name>]
+(take|t|pick) <item name>
+(drop|d|unpick) <item name>
+undo|u|reverse
+quit|q|exit
+
+>
+The inventory has no items
+
+>
+There is no way in that direction.
+
+>
+There is no way in that direction.
+
+>
+Undo success:HelpCommand
+
+>
+I do not understand
+
+>
+The inventory has no items
+
+>
+Player score:0
+GAME OVER

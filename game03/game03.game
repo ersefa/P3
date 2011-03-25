@@ -1,0 +1,147 @@
+# Example Game: The Two Towels
+game "THE TWO TOWELS" "Cristina and Jose Luis" "Three Rings for the Elven-kings..."
+
+location forest "FOREST OF THONTUNIA" "You are a 'profesional dungeoneer' of the Kingdom of Thontunia, a brave guy who explores dangerous places looking for lost treasures. Now you are wandering in the forest, ready for another exciting day full of adventures. It seems there is a cave at the north..."
+n cave
+s meditation
+
+location cave "ENTRANCE OF THE CAVE" "Aha! The inside of the cave is really big. You can smell the aroma of adventure... no, no, wait... what you are smelling is the stench of trolls! You should be careful exploring the cave, trying not to find a troll in your way... or you'll be part of his diet :-( There are two passages in the cave, an small one at the west and a big one at the northeast. Close to the northeast passage there is a skull on the floor (ughs!)."
+item "skull" "This skull is really scary." 25
+w smallPassage
+ne bigPassage
+s forest
+
+location meditation "MEDITATION CAVE" "Looks like you are wondering if you dive into the adventures that await you in the forest. That makes me think that maybe you do not have the facts straight. If not you wander, you can not talk about the adventures with other browsers. Can you repent! Take a coin. Back to the north and behave like a real adventurer. If you really afraid, go northeast ..."
+# Parece que estas pensando si adentrarte en las aventuras que te esperan # en el bosque. Eso me hace pensar que tal vez no tienes las cosas tan # claras. Si no te adentras, no podras hablar de las aventuras con el # resto de exploradores. Puede que te arrepientas! Coge una moneda. # Vuelve al norte y comportate como un verdadero aventurero. # Si tienes verdadero miedo vete al noreste ...
+item "coin" "This coin is the fate" 15
+n forest
+ne backDoor
+
+location smallPassage "SMALL PASSAGE OF THE CAVE" "You have decided to delve into the small passage. May not have been the right choice. You seem like small sites. Do you like to look closely at things? Would you like to feel the excitement about? Undoubtedly, you have chosen the best option. You can go to the northwest and begin to feel the heat like you are in the Caribbean. On the right you have a swimsuit that might come in handy if you do not carry one in the bag ..."
+# Has decidido adentrarte en el pequeño pasaje. Tal vez no haya sido la # eleccion mas acertada. Parece que te gustan los sitios pequeños. ¿Te # gusta poder observar de cerca las cosas? ¿Te gusta poder sentir de cerca # la emocion? Sin lugar a dudas, has elegido la mejor opcion. Puedes ir al # noroeste y empezar a sentir el calor como si estuvieras en el Caribe. # A la derecha tienes un bañador que tal vez te venga bien por si no # llevases uno en la mochila ...
+item "swimsuit" "This swimsuit is very good" 5
+nw fireRoom
+e cave
+
+location bigPassage "BIG PASSAGE OF THE CAVE" "Welcome to this part of the cave. Before you can see several galleries. You must make a choice and be consistent with it. Nothing is going to terrorize, or yes, that is up to you. Be careful when you enter because you could find the remains of bones of previous adventurers. Feel the fear eh? Take a lime before choosing, no rush but do not have all day. You should go south to choose the tools you think you might need to hazards that may arise in your way or if instead you want to relax go north and if you want to inquire about the type of people you can find ... go east ... CHOOSE NOW!!!"
+# Bienvenido a esta parte de la cueva. Ante ti se divisan varias galerias. # Deberas tomar una eleccion y ser consecuente con ella. Ninguna te va a # aterrorizar, o si, eso depende de ti. Ten cuidado cuando entres porque # podrias encontrarte con restos de huesos de anteriores aventureros. # Ya sientes el miedo eh? Tomate una tila antes de elegir, no hay prisa, # pero tampoco tenemos todo el dia. Deberias ir al sur para elegir las # herramientas que pieses que puedas necesitar ante los peligros que se # puedan presentar en tu camino o si por el contrario quieres descansar # vete al norte y si quieres indagar sobre el tipo de personas que puedes # encontrarte ... ve al este ... ELIGE YA!!!
+item "bone" "This bone is hard" -10
+item "lime" "This lime is rich" 1
+n darkRoom1
+e paintRoom
+s toolRoom
+sw cave
+
+location toolRoom "TOOL ROOM" "Care! Hide you! You have just entered the room damn. What you see on the ground is not ketchup, it is blood. To get the tools you see on the wall should be careful where you step ... or your brains will be part of the furniture. LUCK!!! If you go south you have the southeast you have the possibility to leave by the back door ...."
+# ¡Cuidado! ¡Escondete! Acabas de entrar en la habitacion maldita. Lo que # ves en el suelo no es ketchup, es sangre! Para poder coger las # herramientas que ves en la pared debes tener cuidado donde pisas ... o # tus sesos formaran parte del mobiliario. SUERTE!!! # Si vas al sureste tienes la posibilidad de salir por la puerta de atras item "hammer" "This hammer is very good" 2
+n bigPassage
+se backDoor
+
+location backDoor "BACK DOOR" "Oh, no, I can not believe it! What are you doing here? An intrepid adventurer can not be afraid of anything. I have disappointed, I thought you were more brave. Come back when you lost fears ..." 20 "Has tenido miedo y has decidido irte"
+# Oh, no, no me lo puedo creer! ¿Que haces aqui? Un intrepido aventurero # no puede tener miedo a nada. Me has decepcionado, pensaba que eras # mas valiente. Vuelve cuando hayas perdido tus miedos ... # item "ee" "" 17 # nw toolRoom # sw meditation # n paintRoom
+
+location paintRoom "PAINT ROOM" "You have just entered the room more valuable of the cave. Beware of the troll, he is asleep. As you realize your presence you will be your food. Agh! Glub! What paintings are these? I want to go from here! ZAS! The troll is stirring ... Appear on the floor is a brush and boats paint, so paint will be playing to go unnoticed and that the troll again sleep. To make matters worse in this room there was nothing interesting! I think it should leave by the back door, but would have to sort out the troll and exit at the south ..."
+# Acabas de entrar en la habitacion mas valiosa de la cueva. Ten cuidado # con el troll que esta dormido. Como se percate de tu presencia vas a # ser su comida. Agh! Glub! ¿Que pinturas son estas? Quiero irme de # aqui! ZAS! El troll se esta despertando ... Parece que en el suelo hay # un pincel y botes de pintura, asi que tocara pintarse para pasar # desapercibido y que el troll vuelva a dormirse. Para colmo en esta # habitacion no habia nada interesante! Creo que deberia irme por la # puerta de atras ... Pero tendria que sortear al troll y salir por # el sur ... 
+item "brush" "This brush paint good" 3
+w bigPassage
+s backDoor
+
+location fireRoom "FIRE ROOM" "Wajaja! We have fooled! Are you starting to feel the heat? Well hurry up because every second that pass the temperature increases. The only outlet you have is to go north and pray that no other room worse. We will not be so bad and give you the opportunity to use it as a sauna, you could really lose some weight ... On the roof you have two thermostats, you must choose the correct to regulate temperature or else ..."
+# Wajaja! Te hemos engañado! ¿Estas empezando a notar el calor? Pues # date prisa porque a cada segundo que pasa la temperatura aumenta. # La unica salida que tienes es ir al norte y rezar para que no # haya otra habitacion peor. No seremos tan malos y, te daremos la # oportunidad de que lo uses como sauna, que te vendria bien perder # unos kilitos ... # En el techo tienes dos termostatos, solo debes elegir el correcto # para regular la temperatura o sino ...
+item "thermostat1" "The thermostat 1 temperature increases" 4
+item "thermostat2" "The thermostat 2 is bad" -4
+n refuge
+se smallPassage
+
+location refuge "REFUGE OF THE CAVE" "You are a brave adventurer. Nothing stands in your way towards the goal. We are shoked, but this has only just begun. You still have many adventures ahead. On the table you have a flashlight in case you want to accompany you on your way. For now, you rest, you expected a hard day at daybreak. To the northeast yo can see another room ..."
+# Eres un aventurero valiente. Nada se opone en tu camino hacia la # meta. Estamos asombrados, pero esto no ha hecho mas que empezar. # Todavia te quedan muchas aventuras por delante. Encima de la  # mesa tienes una linterna por si quieres que te acompañe en tu # camino. De momento, descansa, que te espera un duro dia cuando # amanezca. Al noreste se divisa otra habitacion ...
+item "lamp" "This lamp lights your way" 30
+s fireRoom
+ne polychromeRoom
+
+location darkRoom1 "DARK ROOM OF THE BIG PASSAGE" "Again fell in a trap. It seems you are not as smart as you thought. This room is cold and dark and the window is open ... Oh no, seems to be casting trolls out the window! Quick! Try closing the window, but beware, there seems to pushpins on the floor. Collect some to be the keys to the keys to the trolls in the foot and then you can win time to scape them. You have no choice but to go to northwest ..."
+# De nuevo caiste en una trampa. Parece que no eres tan listo # como pensabas. Esta habitacion es fria y oscura y la ventana # esta abierta ... Oh no, parece que se van a colar trolls por # la ventana!! Rapido!! Intenta cerrar la ventana, pero ten # cuidado, parece que hay chinchetas en el suelo. Recoge alguna # para que se las claven en el pie los trolls y asi podras # ganar tiempo para poder escapar de ellos yendo al noroeste ...
+item "pushpin" "This pushpin can save your life" 5
+nw polychromeRoom
+s bigPassage
+
+location polychromeRoom "POLYCHROME ROOM" "See? Now understand the type of people who live in this cave? I hope you have passed the shock of seeing trolls and you have rested. In short you must agree with a group of tourists, as the room you just entered is very famous. You can see the type of materials used in antiquity and which devoted part of his time. Do not be too thief, do not take anything! Well you can take thumbnails, but not may because when you go to the north you will be frisked and as you take over ... In the middle of the room you can see there is a cabinet with pots, ashtrys ..."
+# ¿Ves? ¿Entiendes ahora el tipo de gente que habita en esta cueva? Espero que se te haya pasado # el susto de ver trolls y que tú hayas descansado. En breve # coincidirás con un grupo de turistas, ya que la habitación en # la que acabas de entrar es muy famosa. Puedes observar el # tipo de materiales que utilizaban en la antigüedad y a lo que # dedicaban parte de su tiempo. No seas muy ladrón, no te # lleves nada!! Bueno te puedes llevar miniaturas, pero tampoco # muchas porque cuando salgas por el norte te van a cachear # y como lleves de más ... # En el medio de la habitación puedes ver que hay una vitrina # con vasijas, ceniceros ...
+item "pot" "This pot is strange" 1
+item "ashtry" "This ashtry is blue" 2
+sw refuge
+se darkRoom1
+n basin
+
+location basin "THE BASIN ROOM" "But ... if it is empty! There's nothing nowhere! It seems that this room only serves to choose the path I want to do. Difficult choice. West, North, East. Pinto Pinto trill ..."
+# Pero ... si esta vacio! No hay nada por ningun sitio! # Parece que esta habitacion solo sirve para elegir el # camino que quiero hacer. Dificil eleccion. Oeste, # norte, este ... Pinto pinto gorgorito ... # item "" "" 11
+n monsters
+s polychromeRoom
+e relax
+w horseTail
+
+location relax "RELAX ROOM" "Just get to the prayer hall. You have to integrate into their culture or else you will do the harakiri jaja just kidding. Try to relax, you wear many scares in the body. Perhaps vampires bother you ... There you have some garlic if you want them to. When you feel ready again to the road ..."
+# Acabas de llegar a la sala de oración. Debes integrarte en su # cultura o sino te harán el harakiri jaja es broma. Trata # de relajarte, que llevas muchos sustos en el cuerpo. Tal vez # te molesten los vampiros ... Ahí tienes unos ajos por si # te los quieres poner. Cuando te sientas preparado ... # Vuelve al camino ...
+item "garlic" "These garlic can save your life" 25
+w basin
+
+location horseTail "HORSE TAIL ROOM" "This room is like an animal. Look carefully, because until I guess you will not get out of here hahaha. You can take paper to jot down possible solutions. After sticking the paper in the door you want to go (north, east, northwest) ..." # Esta habitacion se parece a un animal. Observa bien, porque 
+# hasta que no lo adivines no vas a poder salir de aqui jajaja. # Puedes coger papel para apuntar las posibles soluciones. # Despues pega el papel en la puerta por la que quieras # salir (norte, este, noroeste)
+item "paper" "The paper is white" 1
+n darkRoom2
+e basin
+nw trollFriends
+
+location darkRoom2 "DARK ROOM" "Wow, you are doing the crazy! Well, this time the darkness is not to rest. You are in a room full of fireflies illuminating ... Aah, I just step one. I think I should get me one in the bag ... I may light the way ... because I think I am lost. I can go to south or east ..."
+# Vaya, te estas haciendo el loco! Pues esta vez la oscuridad no es # para descansar. Estas en una habitacion reflectante llena de # luciernagas ... Aah, acabo de pisar una. Creo que deberia # meter alguna en la mochila ... Puede que me ilumine el # camino ... porque creo que estoy perdido. Puedo ir al # sur o este ...
+item "fireflie" "The fireflie is horrible" -25
+s horseTail
+e monsters
+
+location monsters "MONSTERS OF THE CAVE" "Agh! But what is this? They are stuffed animals. These people are ... uooh! They come for me! Yes! The network that is on the wall can be used to tie I am going crazy! This is all a figment of my imagination, count up to 3 and all have happened ... 1, 2 ... Aah I have touched! Why door should I go? North, south, west, northwest ..."
+# Agh! Pero que es esto? Son animales disecados! Esta gente # esta ... uooh! Que vienen a por mi! Si! La red que hay en # esa pared me puede servir para atarlos ... Me estoy # volviendo loco! Todo es producto de mi imaginacion, # contare hasta 3 y todo habra pasado ... 1, 2 ... Aah # me han tocado! Por que puerta me voy? Norte, Sur, # Oeste, Noroeste ...
+item "network" "This network is very big" -27
+s basin
+w darkRoom2
+n foodRoom
+nw dresses
+
+location trollFriends "TROLL FRIENDS" "you did not want action? Dare to look behind you ... But do not yell or be worse! You have gone to the room of the trolls. Luckily today is a holiday and you are one more of them, but did not take long leave or you will end up being your meal. Get  a coffee cup. There is one door to the northeast ... Could be another party? Discover it ..."
+# tu no querias accion? Atrevete a mirar detras tuya ... # Pero no chilles o sera peor! Has ido a parar a la # habitacion de los trolls. Por suerte hoy es fiesta y # eres uno mas de ellos, pero no tardes mucho en irte o # acabaras siendo su comida. Coge una taza para tomarte # un cafe. Se ve 1 puerta al noreste ... Podria ser otra # fiesta? Descubrelo ...
+item "cup" "This cup was stolen" 16
+se horseTail
+ne waterPassage
+
+location dresses "DRESSES OF THE TIME" "You just go back in time. The clothes you wear is broken and is outdated for the time. It is necessary that you change your clothes. Variety where you elected. Take the mirror and try on dresses, pants ... When you're ready, go north or south. You'll feel like Meteor Shower and through the door ..."
+# Acabas de retroceder en el tiempo. La ropa que llevas # esta rota y es anticuada para la epoca. Es necesario que # te cambies de ropa. Tienes variedad donde elegi. Coge el # espejo y pruebate los vestidos, pantalones ... Cuando # estes listo, ve al norte o al sureste. Te vas a sentir # como en Lluvia de Estrellas y atravesar la puerta
+item "dress" "This dress is new" 2
+item "pant" "This pant is old" 1
+item "mirror" "This mirror is big" 2
+se monsters
+n waterPassage
+
+location foodRoom "FOOD ROOM" "Mmm! Smells good! Do you miss home cooking? Are you hungry? Sit on the table, then ... Oh no! The food is you! Try to get rid of the trolls Use the silverware on the table if you had to fight them. Are you peaceful ... Run away to the north! Since then ... going to be a great athlete!!"
+# Mmm! ¡Qué bien huele! ¿Echas de menos la comida casera? # ¿Tienes hambre? Siéntate en la mesa que enseguida ... Oh no! # La comida eres tú! Intenta deshacerte de los trolls ... # Utiliza los cubiertos que hay en la mesa si tuvieras que # luchar contra ellos. Si eres pacífico ... sal corriendo # hacia el norte! Desde luego, vas a ser todo un atleta!!
+item "silverware" "These silverware can save your life" -30
+s monsters
+n fightRoom
+
+location waterPassage "WATER PASSAGE OF THE CAVE" "Here musty, seems to have been a storm. Be careful, the floor ... aaah! Slip eh? I would take the raincoat that have been forgotten because you could take you a cold. You should not spend much time here because the water can cover the entire passage as the Titanic. Flees to the south, southwest or northeast ..."
+# Aqui huele a humedad, parece que ha habido una tormenta. # Ten cuidado, el suelo... aaah! Resbala eh? Yo cogeria el # chubasquero que se han dejado olvidado porque podrias # cogerte un resfriado. No deberias permanecer mucho tiempo # aqui porque el agua puede cubrir el pasaje entero como en # el Titanic. Huye por el sur, suroeste o noreste
+item "raincoat" "This raincoat is impermeable" 0
+ne fightRoom
+s dresses
+sw trollFriends
+
+location fightRoom "FIGHT ROOM OF THE CAVE" "We were waiting ... You think you are ready to have gotten rid of our trolls and traps that you have put on the road ... but I still have ahead the hardest battle, the fight against our greatest and terrifying troll!! You gave me I turned around and went home, but since you got here ... you should go north ..."
+# Te estabamos esperando ... Te crees muy listo por haber # conseguido deshacerte de nuestros trolls y las trampas que te # hemos puesto por el camino. Pero te queda todavia por delante # la batalla mas dura, la batalla contra nuestro troll mas # grande y aterrador!! # Yo que tu, me daba la media vuelta y me iba a casa, pero ya # que has llegado hasta estas alturas ... deberias ir al norte ...
+item "clock" "This clock is stopped" -26
+n kingTroll
+s foodRoom
+sw waterPassage
+
+location kingTroll "KING TROLL OF THONTUNIA" "Congratulations! You are the first that has managed to get here. I know you have had to fight hard and spend hardship in this cave so quiet apparently. That smell ... Agh! You are!! The King will grant you the pleasure to use their facilities in the kingdom, so it looks like a cave is the most beautiful of all the woods and come more intrepid adventurers. Altough hopefully not all have the same fate as you, because muy trolls are hungry and you are very tasty jeje. Continue north and you will see your second reward ..."
+# Enhorabuena!! Eres el primero que ha conseguido llegar # hasta aqui. Se que has tenido que pelear muy duro y pasar # penurias en esta cueva tan tranquila aparentemente. Ese # olor ... agh! Eres tu!! El rey te va a conceder el placer # de poder usar sus instalaciones del reino, para que parezca # que su cueva es la mas hermosa de todo este bosque y vengan # mas intrepidos aventureros. Aunque esperemos que no todos # tengan la misma suerte que tu, porque mis trolls tienen # mucha hambre y los aventureros sois muy sabrosos jeje. # Continua hacia el norte y veras tu segunda recompensa ...
+item "gifts" "These gifts are deserved" 30
+n heaven
+s fightRoom
